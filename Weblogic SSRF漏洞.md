@@ -92,3 +92,9 @@ Connection: close
 - /var/spool/cron/root是centos系统下root用户的cron文件
 - /var/spool/cron/crontabs/root是debian系统下root用户的cron文件
 
+## 开源POC
+
+- https://github.com/0xn0ne/weblogicScanner
+- https://github.com/rabbitmask/WeblogicScan
+- https://github.com/dr0op/WeblogicScan
+

