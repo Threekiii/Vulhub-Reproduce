@@ -12,6 +12,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Apache Airflow Celery 消息中间件命令执行 CVE-2020-11981
 * Apache Airflow 示例DAG中的命令注入 CVE-2020-11978
 * Apache Airflow 默认密钥导致的权限绕过 CVE-2020-17526
+* Apache APISIX Dashboard API权限绕过导致RCE CVE-2021-45232
 * Apache APISIX 默认密钥漏洞 CVE-2020-13945
 * Apache Dubbo Java反序列化漏洞 CVE-2019-17564
 * Apache Flink 小于1.9.1远程代码执行 CVE-2020-17518
