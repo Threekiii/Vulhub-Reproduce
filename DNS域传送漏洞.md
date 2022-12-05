@@ -25,11 +25,11 @@ docker-compose up -d
 
 在Linux下，我们可以使用dig命令来发送dns请求。比如，我们可以用`dig @your-ip www.vulhub.org`获取域名`www.vulhub.org`在目标dns服务器上的A记录：
 
-![image-20220222172325411](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202221723645.png)
+![image-20220222172325411](./images/202202221723645.png)
 
 发送axfr类型的dns请求：`dig @your-ip -t axfr vulhub.org`
 
-![image-20220222172307620](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202221723790.png)
+![image-20220222172307620](./images/202202221723790.png)
 
 可见，获取到了`vulhub.org`的所有子域名记录，这里存在DNS域传送漏洞。
 

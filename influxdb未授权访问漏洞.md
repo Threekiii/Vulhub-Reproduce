@@ -21,7 +21,7 @@ docker-compose up -d
 
 环境启动后，访问`http://your-ip:8086/debug/vars`即可查看一些服务信息，但此时执行SQL语句则会出现401错误：
 
-![image-20220224131904529](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202241319614.png)
+![image-20220224131904529](./images/202202241319614.png)
 
 ## 漏洞复现
 
@@ -42,11 +42,11 @@ docker-compose up -d
 
 最终生成的token：
 
-![image-20220224132837081](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202241328222.png)
+![image-20220224132837081](./images/202202241328222.png)
 
 发送带有这个jwt token的数据包，注意Content-Type设置为`application/x-www-form-urlencoded`。
 
 可见SQL语句执行成功：
 
-![image-20220224133310332](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202241333480.png)
+![image-20220224133310332](./images/202202241333480.png)
 
