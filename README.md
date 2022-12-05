@@ -45,6 +45,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Atlassian Confluence 路径穿越与命令执行漏洞 CVE-2019-3396
 * Celery 4.0 Redis未授权访问+Pickle反序列化利用
 * Confluence OGNL表达式注入命令执行漏洞 CVE-2022-26134
+* CouchDB Erlang 分布式协议代码执行 CVE-2022-24706
 * Couchdb 任意命令执行漏洞 CVE-2017-12636
 * Couchdb 垂直权限绕过漏洞 CVE-2017-12635
 * Discuz 7.x6.x 全局变量防御绕过导致代码执行
@@ -56,7 +57,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Django QuerySet.order_by() SQL注入漏洞 CVE-2021-35042
 * Django Trunc(kind) and Extract(lookup_name) SQL注入漏洞 CVE-2022-34265
 * DNS域传送漏洞
-* Docker daemon api 未授权访问漏洞
+* Docker daemon api 未授权访问漏洞 RCE
 * Drupal  7.32 “Drupalgeddon” SQL注入漏洞 CVE-2014-3704
 * Drupal Core 8 PECL YAML 反序列化任意代码执行漏洞 CVE-2017-6920
 * Drupal Drupalgeddon 2 远程代码执行漏洞 CVE-2018-7600
@@ -90,7 +91,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Jackson-databind 反序列化漏洞 CVE-2017-7525+CVE-2017-17485
 * Java RMI Registry 反序列化漏洞(=jdk8u111)
 * JBoss 4.x JBossMQ JMS 反序列化漏洞 CVE-2017-7504
-* JBoss JMXInvokerServlet 反序列化漏洞
+* JBoss JMXInvokerServlet 反序列化漏洞 CVE-2015-7501
 * Jenkins远程命令执行漏洞 CVE-2018-1000861
 * Jetty WEB-INF 敏感信息泄露漏洞 CVE-2021-28164
 * Jetty WEB-INF 敏感信息泄露漏洞 CVE-2021-34429
@@ -156,12 +157,12 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Struts2 S2-012 远程代码执行漏洞
 * Struts2 S2-013 远程代码执行漏洞
 * Struts2 S2-015 远程代码执行漏洞
-* Struts2 S2-016 远程代码执行漏洞
+* Struts2 S2-016 远程代码执行漏洞 CVE-2013-2251
 * Struts2 S2-032 远程代码执行漏洞 CVE-2016-3081
 * Struts2 S2-045 远程代码执行漏洞 CVE-2017-5638
 * Struts2 S2-046 远程代码执行漏洞 CVE-2017-5638
 * Struts2 S2-048 远程代码执行漏洞
-* Struts2 S2-052 远程代码执行漏洞
+* Struts2 S2-052 远程代码执行漏洞 CVE-2017-9805
 * Struts2 S2-053 远程代码执行漏洞
 * Struts2 S2-057 远程代码执行漏洞 CVE-2018-11776
 * Struts2 S2-059 远程代码执行漏洞 CVE-2019-0230
@@ -186,6 +187,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * XStream 反序列化命令执行漏洞 CVE-2021-21351
 * XStream 反序列化命令执行漏洞 CVE-2021-29505
 * XXL-JOB executor 未授权访问漏洞
+* YApi NoSQL注入导致远程命令执行漏洞
 * zabbix latest.php SQL注入漏洞 CVE-2016-10134
 * Zabbix Server trapper命令注入漏洞 CVE-2017-2824
 * Zabbix Server trapper命令注入漏洞 CVE-2020-11800
