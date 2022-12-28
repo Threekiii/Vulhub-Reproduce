@@ -43,6 +43,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Aria2 任意文件写入漏洞
 * Atlassian Confluence OGNL表达式注入代码执行漏洞 CVE-2021-26084
 * Atlassian Confluence 路径穿越与命令执行漏洞 CVE-2019-3396
+* Cacti 前台命令注入漏洞 CVE-2022-46169
 * Celery 4.0 Redis未授权访问+Pickle反序列化利用
 * Confluence OGNL表达式注入命令执行漏洞 CVE-2022-26134
 * CouchDB Erlang 分布式协议代码执行 CVE-2022-24706
