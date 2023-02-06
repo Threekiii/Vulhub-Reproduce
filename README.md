@@ -86,8 +86,9 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Grafana管理后台SSRF
 * H2 Database Console 未授权访问
 * Hadoop YARN ResourceManager 未授权访问
-* Imagemagick PDF密码位置命令注入漏洞 CVE-2020-29599
-* Imagetragick 命令执行漏洞 CVE-2016–3714
+* ImageMagick PDF密码位置命令注入漏洞 CVE-2020-29599
+* ImageMagick 命令执行漏洞 CVE-2016–3714
+* ImageMagick任意文件读取漏洞 CVE-2022-44268
 * influxdb未授权访问漏洞
 * Jackson-databind 反序列化漏洞 CVE-2017-7525+CVE-2017-17485
 * Java RMI Registry 反序列化漏洞(=jdk8u111)
