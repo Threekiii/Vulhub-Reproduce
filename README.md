@@ -184,6 +184,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Weblogic WLS Core Components 反序列化命令执行漏洞 CVE-2018-2628
 * Weblogic 任意文件上传漏洞 CVE-2018-2894
 * Weblogic 管理控制台未授权远程命令执行漏洞 CVE-2020-14882+CVE-2020-14883
+* Weblogic未授权远程代码执行漏洞 CVE-2023-21839
 * Webmin 远程命令执行漏洞 CVE-2019-15107
 * Wordpress 4.6 任意命令执行漏洞 PwnScriptum
 * XStream 反序列化命令执行漏洞 CVE-2021-21351
