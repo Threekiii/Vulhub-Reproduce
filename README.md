@@ -67,6 +67,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Drupal 远程代码执行漏洞 CVE-2019-6339
 * ECShop 2.x3.x SQL注入任意代码执行漏洞
 * ECShop 4.x collection_list SQL注入
+* ElasticSearch 目录穿越漏洞 CVE-2015-3337
 * Fastjson 1.2.24 反序列化导致任意命令执行漏洞
 * Fastjson 1.2.47 远程命令执行漏洞
 * FFmpeg 任意文件读取漏洞SSRF漏洞 CVE-2016-1897+CVE-2016-1898
