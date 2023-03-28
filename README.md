@@ -94,6 +94,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Jackson-databind 反序列化漏洞 CVE-2017-7525+CVE-2017-17485
 * Java RMI Registry 反序列化漏洞(=jdk8u111)
 * JBoss 4.x JBossMQ JMS 反序列化漏洞 CVE-2017-7504
+* JBoss 5.x6.x 反序列化漏洞 CVE-2017-12149
 * JBoss JMXInvokerServlet 反序列化漏洞 CVE-2015-7501
 * Jenkins远程命令执行漏洞 CVE-2018-1000861
 * Jetty WEB-INF 敏感信息泄露漏洞 CVE-2021-28164
@@ -128,6 +129,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * OpenSSH 用户名枚举漏洞 CVE-2018-15473
 * OpenSSL 心脏出血漏洞 CVE-2014-0160
 * PHP-FPM Fastcgi 未授权访问漏洞
+* PHP-FPM 远程代码执行漏洞 CVE-2019-11043
 * PostgreSQL 高权限命令执行漏洞 CVE-2019-9193
 * Python PIL 远程命令执行漏洞 CVE-2017-8291
 * Python PIL 远程命令执行漏洞 CVE-2018-16509
