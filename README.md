@@ -102,6 +102,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Jetty 通用 Servlets 组件 ConcatServlet 信息泄露漏洞 CVE-2021-28169
 * Jmeter RMI 反序列化命令执行漏洞 CVE-2018-1297
 * Joomla 3.7.0 SQL注入漏洞 CVE-2017-8917)
+* Joomla权限绕过漏洞 CVE-2023-23752
 * Jupyter Notebook 未授权访问远程命令执行漏洞
 * Kibana 原型链污染导致任意代码执行漏洞 CVE-2019-7609
 * Kibana 本地文件包含漏洞 CVE-2018-17246
