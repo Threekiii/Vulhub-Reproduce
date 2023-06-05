@@ -28,6 +28,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Apache Log4j Server 反序列化命令执行漏洞 CVE-2017-5645
 * Apache Log4j2 lookup JNDI 注入漏洞 CVE-2021-44228
 * Apache OfBiz 反序列化命令执行漏洞 CVE-2020-9496
+* Apache RocketMQ 远程命令执行漏洞 CVE-2023-33246
 * Apache Shiro 1.2.4 反序列化漏洞 CVE-2016-4437
 * Apache Shiro 认证绕过漏洞 CVE-2010-3863
 * Apache Shiro 认证绕过漏洞 CVE-2020-1957
@@ -78,7 +79,6 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Fastjson 1.2.47 远程命令执行漏洞
 * FFmpeg 任意文件读取漏洞SSRF漏洞 CVE-2016-1897+CVE-2016-1898
 * Flask Jinja2 服务端模板注入漏洞
-* Flask（Jinja2） 服务端模板注入漏洞
 * GhostScript 沙箱绕过（命令执行）漏洞 CVE-2018-16509
 * GhostScript 沙箱绕过（命令执行）漏洞 CVE-2018-19475
 * GhostScript 沙箱绕过（命令执行）漏洞 CVE-2019-6116
