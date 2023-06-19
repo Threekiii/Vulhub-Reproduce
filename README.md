@@ -79,6 +79,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Fastjson 1.2.47 远程命令执行漏洞
 * FFmpeg 任意文件读取漏洞SSRF漏洞 CVE-2016-1897+CVE-2016-1898
 * Flask Jinja2 服务端模板注入漏洞
+* GeoServer OGC Filter SQL注入漏洞 CVE-2023-25157
 * GhostScript 沙箱绕过（命令执行）漏洞 CVE-2018-16509
 * GhostScript 沙箱绕过（命令执行）漏洞 CVE-2018-19475
 * GhostScript 沙箱绕过（命令执行）漏洞 CVE-2019-6116
@@ -140,6 +141,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * node-postgres 代码执行漏洞 CVE-2017-16082
 * Node.js 目录穿越漏洞 CVE-2017-14849
 * ntopng权限绕过漏洞 CVE-2021-28073
+* Openfire管理后台认证绕过漏洞 CVE-2023-32315
 * OpenSMTPD 远程命令执行漏洞 CVE-2020-7247
 * OpenSSH 用户名枚举漏洞 CVE-2018-15473
 * OpenSSL 心脏出血漏洞 CVE-2014-0160
