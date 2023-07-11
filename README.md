@@ -6,6 +6,8 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 
 ## 0x01 项目导航
 
+* Adminer ElasticSearch 和 ClickHouse 错误页面SSRF漏洞 CVE-2021-21311
+* Adminer 远程文件读取 CVE-2021-43008
 * Adobe ColdFusion 反序列化漏洞 CVE-2017-3066
 * Adobe ColdFusion 文件读取漏洞 CVE-2010-2861
 * Apache ActiveMQ 任意文件写入漏洞 CVE-2016-3088
