@@ -118,10 +118,12 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Joomla 3.4.5 反序列化漏洞 CVE-2015-8562
 * Joomla 3.7.0 SQL注入漏洞 CVE-2017-8917)
 * Joomla权限绕过漏洞 CVE-2023-23752
+* JumpServer随机数种子泄露导致账户劫持漏洞 CVE-2023-42820
 * Jupyter Notebook 未授权访问远程命令执行漏洞
 * Kibana 原型链污染导致任意代码执行漏洞 CVE-2019-7609
 * Kibana 本地文件包含漏洞 CVE-2018-17246
 * Laravel Ignition 2.5.1 代码执行漏洞 CVE-2021-3129
+* librsvg XInclude 文件包含漏洞 CVE-2023-38633
 * Libssh 服务端权限认证绕过漏洞 CVE-2018-10933
 * Liferay Portal CE 反序列化命令执行漏洞 CVE-2020-7961
 * Magento 2.2 SQL注入漏洞
