@@ -55,6 +55,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Cacti 前台命令注入漏洞 CVE-2022-46169
 * Celery 4.0 Redis未授权访问+Pickle反序列化利用
 * Confluence OGNL表达式注入命令执行漏洞 CVE-2022-26134
+* Confluence 属性覆盖导致权限绕过漏洞 CVE-2023-22515
 * CouchDB Erlang 分布式协议代码执行 CVE-2022-24706
 * Couchdb 任意命令执行漏洞 CVE-2017-12636
 * Couchdb 垂直权限绕过漏洞 CVE-2017-12635
@@ -109,6 +110,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * JBoss 4.x JBossMQ JMS 反序列化漏洞 CVE-2017-7504
 * JBoss 5.x6.x 反序列化漏洞 CVE-2017-12149
 * JBoss JMXInvokerServlet 反序列化漏洞 CVE-2015-7501
+* Jeecg Boot SSTI CVE 2023 4450
 * Jenkins-CI 远程代码执行漏洞 CVE-2017-1000353
 * Jenkins远程命令执行漏洞 CVE-2018-1000861
 * Jetty WEB-INF 敏感信息泄露漏洞 CVE-2021-28164
