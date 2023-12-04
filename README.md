@@ -10,6 +10,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Adminer 远程文件读取 CVE-2021-43008
 * Adobe ColdFusion 反序列化漏洞 CVE-2017-3066
 * Adobe ColdFusion 文件读取漏洞 CVE-2010-2861
+* Apache ActiveMQ Jolokia 后台远程代码执行漏洞 CVE-2022-41678
 * Apache ActiveMQ 任意文件写入漏洞 CVE-2016-3088
 * Apache ActiveMQ 反序列化漏洞 CVE-2015-5254
 * Apache Airflow Celery 消息中间件命令执行 CVE-2020-11981
