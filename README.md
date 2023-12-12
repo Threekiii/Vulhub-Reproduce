@@ -31,6 +31,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Apache Log4j Server 反序列化命令执行漏洞 CVE-2017-5645
 * Apache Log4j2 lookup JNDI 注入漏洞 CVE-2021-44228
 * Apache OfBiz 反序列化命令执行漏洞 CVE-2020-9496
+* Apache OfBiz 反序列化命令执行漏洞 CVE-2023-49070
 * Apache RocketMQ 远程命令执行漏洞 CVE-2023-33246
 * Apache Shiro 1.2.4 反序列化漏洞 CVE-2016-4437
 * Apache Shiro 认证绕过漏洞 CVE-2010-3863
