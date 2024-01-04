@@ -11,6 +11,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Adobe ColdFusion 反序列化漏洞 CVE-2017-3066
 * Adobe ColdFusion 文件读取漏洞 CVE-2010-2861
 * Apache ActiveMQ Jolokia 后台远程代码执行漏洞 CVE-2022-41678
+* Apache ActiveMQ OpenWire 协议反序列化命令执行漏洞 CVE-2023-46604
 * Apache ActiveMQ 任意文件写入漏洞 CVE-2016-3088
 * Apache ActiveMQ 反序列化漏洞 CVE-2015-5254
 * Apache Airflow Celery 消息中间件命令执行 CVE-2020-11981
@@ -32,6 +33,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Apache Log4j2 lookup JNDI 注入漏洞 CVE-2021-44228
 * Apache OfBiz 反序列化命令执行漏洞 CVE-2020-9496
 * Apache OfBiz 反序列化命令执行漏洞 CVE-2023-49070
+* Apache OFBiz 鉴权绕过导致命令执行 CVE-2023-51467
 * Apache RocketMQ 远程命令执行漏洞 CVE-2023-33246
 * Apache Shiro 1.2.4 反序列化漏洞 CVE-2016-4437
 * Apache Shiro 认证绕过漏洞 CVE-2010-3863
