@@ -8,8 +8,10 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 
 * Adminer ElasticSearch 和 ClickHouse 错误页面SSRF漏洞 CVE-2021-21311
 * Adminer 远程文件读取 CVE-2021-43008
+* Adobe ColdFusion XML 反序列化命令执行漏洞 CVE-2023-29300
 * Adobe ColdFusion 反序列化漏洞 CVE-2017-3066
 * Adobe ColdFusion 文件读取漏洞 CVE-2010-2861
+* Adobe ColdFusion 本地文件包含漏洞 CVE-2023-26360
 * Apache ActiveMQ Jolokia 后台远程代码执行漏洞 CVE-2022-41678
 * Apache ActiveMQ OpenWire 协议反序列化命令执行漏洞 CVE-2023-46604
 * Apache ActiveMQ 任意文件写入漏洞 CVE-2016-3088
@@ -58,7 +60,10 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Atlassian Jira 模板注入漏洞 CVE-2019-11581
 * Cacti 前台命令注入漏洞 CVE-2022-46169
 * Celery 4.0 Redis未授权访问+Pickle反序列化利用
+* CMS Made Simple (CMSMS) 前台SQL注入漏洞 CVE-2019-9053
+* CMS Made Simple (CMSMS) 前台代码执行漏洞 CVE-2021-26120
 * Confluence OGNL表达式注入命令执行漏洞 CVE-2022-26134
+* Confluence OGNL表达式注入命令执行漏洞 CVE-2023-22527
 * Confluence 属性覆盖导致权限绕过漏洞 CVE-2023-22515
 * CouchDB Erlang 分布式协议代码执行 CVE-2022-24706
 * Couchdb 任意命令执行漏洞 CVE-2017-12636
@@ -115,8 +120,10 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * JBoss 5.x6.x 反序列化漏洞 CVE-2017-12149
 * JBoss JMXInvokerServlet 反序列化漏洞 CVE-2015-7501
 * Jeecg Boot SSTI CVE 2023 4450
+* Jenkins CLI 接口任意文件读取漏洞 CVE-2024-23897
 * Jenkins-CI 远程代码执行漏洞 CVE-2017-1000353
 * Jenkins远程命令执行漏洞 CVE-2018-1000861
+* Jetbrains TeamCity 认证绕过导致远程命令执行漏洞 CVE-2023-42793
 * Jetty WEB-INF 敏感信息泄露漏洞 CVE-2021-28164
 * Jetty WEB-INF 敏感信息泄露漏洞 CVE-2021-34429
 * Jetty 通用 Servlets 组件 ConcatServlet 信息泄露漏洞 CVE-2021-28169
@@ -135,6 +142,7 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * Magento 2.2 SQL注入漏洞
 * Metabase任意文件读取漏洞 CVE-2021-41277
 * Metabase未授权JDBC远程代码执行漏洞 CVE-2023-38646
+* MeterSphere v1.15.4 认证用户SQL注入漏洞 CVE-2021-45788
 * MeterSphere 插件接口未授权访问及远程代码执行
 * mini_httpd任意文件读取漏洞 CVE-2018-18778
 * MinIO集群模式信息泄露漏洞 CVE-2023-28432
