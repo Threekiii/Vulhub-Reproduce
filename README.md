@@ -165,6 +165,8 @@ Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提�
 * OpenSMTPD 远程命令执行漏洞 CVE-2020-7247
 * OpenSSH 用户名枚举漏洞 CVE-2018-15473
 * OpenSSL 心脏出血漏洞 CVE-2014-0160
+* OpenTSDB 命令注入漏洞 CVE-2020-35476
+* OpenTSDB 命令注入漏洞 CVE-2023-25826
 * PHP-FPM Fastcgi 未授权访问漏洞
 * PHP-FPM 远程代码执行漏洞 CVE-2019-11043
 * PostgreSQL 提权漏洞 CVE-2018-1058
