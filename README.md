@@ -2,7 +2,9 @@
 
 **【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
 
-Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提供开源漏洞靶场。
+~~Vulhub漏洞复现，不定时更新。感谢[@Vulhub](https://vulhub.org/)提供开源漏洞靶场。~~
+
+**2024.03.27起，本项目不再维护，相关内容已整合至 [Awesome-POC](https://github.com/Threekiii/Awesome-POC/) 并持续更新。**
 
 ## 0x01 项目导航
 
